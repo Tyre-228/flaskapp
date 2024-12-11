@@ -7,4 +7,4 @@ def home():
     return "Hello World!"
 
 
-app.run(debug=True)
+app.run(debug=False)
