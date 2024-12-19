@@ -7,4 +7,4 @@ def home():
     return "Hello World!"
 
 
-app.run(debug=False)
+app.run(host="0.0.0.0", port=5001, debug=False)
